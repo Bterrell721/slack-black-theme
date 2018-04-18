@@ -74,13 +74,13 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #8699ba; }
 
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #009B8E !important; }
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #363636 !important; }
 
-.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #444 !important; }
+.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #363636 !important; }
 
-.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #e6e6e6; }
+.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #363636; }
 
-.p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #e6e6e6; }
+.p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #363636; }
 
 .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #009b8e; }
 
