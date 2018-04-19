@@ -148,7 +148,7 @@ body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_me
 
 .p-degraded_list__loading { background-color: #222; color: #e6e6e6; }
 
-input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #545454; border-color: #000; color: #363636; }
+input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #363636; border-color: #000; color: #363636 important!; }
 
 input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type='url']:focus, input[type=tel]:focus, input[type=color]:focus, input[type=search]:focus { border-color: rgba(54, 54, 54, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
 
@@ -180,7 +180,7 @@ legend small { color: #949494; }
 
 .uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
 
-textarea { background-color: #545454; border: 1px solid #000; color: #e6e6e6; }
+textarea { background-color: #363636; border: 1px solid #000; color: #B1CBF7; }
 
 textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
 
@@ -370,7 +370,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #footer_archives_table { color: #949494; }
 
-#typing_text { color: #949494; filter: none; }
+#typing_text { color: #B1CBF7 !important; filter: none; }
 
 #notification_bar.wide #typing_text.overflow_ellipsis { -webkit-filter: none; filter: none; }
 
@@ -698,9 +698,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
 
-.messages_header { color: #e6e6e6; }
+.messages_header { color: #212121 !important; }
 
-.channel_title .channel_name_container .channel_name { color: #e6e6e6; }
+.channel_title .channel_name_container .channel_name { color: #009b8e !important; }
 
 .channel_title .channel_name_container .channel_name.muted { color: #949494; }
 
@@ -712,11 +712,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #im_title.away { color: #949494; }
 
-.channel_header_info button { color: #949494; }
+.channel_header_info button { color: #009b8e !important; }
 
-.channel_header_icon { color: #e6e6e6; }
+.channel_header_icon { color: #009b8e !important; }
 
-.channel_calls_button .call_icon.call_window_offline { color: #949494; }
+.channel_calls_button .call_icon.call_window_offline { color: #009b8e !important; }
 
 .channel_actions_toggle.active:focus, .details_toggle.active:focus { color: #e6e6e6; }
 
@@ -740,7 +740,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .presence { color: #949494; }
 
-#channel_topic_text { background: #222; }
+#channel_topic_text { background: #212121; }
 
 #edit_topic_container:hover { overflow: hidden !important; }
 
@@ -1038,7 +1038,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .channel_archive_messages.card .col:first-child { border-right: 1px solid #545454; }
 
-.star { color: #949494; }
+.star { color: #009b8e !important; }
 
 .star_item { border-bottom: 1px solid #000; }
 
