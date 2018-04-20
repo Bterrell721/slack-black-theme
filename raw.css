@@ -426,7 +426,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .menu_filter_container .icon_close { color: #949494 !important; }
 
-.menu #menu_header .menu_simple_header { background: #212121; border-color: #363636; color: #009b8e; }
+.menu #menu_header .menu_simple_header { background: #212121; border-color: #212121; color: #009b8e; }
 
 .menu #menu_header .menu_simple_header a { color: #212121; }
 
@@ -434,7 +434,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu #menu_header .menu_close { color: #009b8e; }
 
-.menu .section_header .header_label { background-color: #363636; color: #B1CBF7 !important; }
+.menu .section_header .header_label { background-color: #212121; color: #B1CBF7 !important; }
 
 .menu .section_header > div.header_label_container { color: #B1CBF7 !important; }
 
@@ -462,9 +462,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a.delete_link { color: #009b8e; }
 
-.menu input { background: #363636; border: 1px solid #545454; }
+.menu input { background: #212121; border: 1px solid #545454; }
 
-.menu textarea { background: #363636; border: 1px solid #545454; }
+.menu textarea { background: #212121; border: 1px solid #545454; }
 
 .menu #menu_footer .menu_footer { background: #000; border-top: 1px solid #363636; }
 
