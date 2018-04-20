@@ -374,7 +374,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #notification_bar.wide #typing_text.overflow_ellipsis { -webkit-filter: none; filter: none; }
 
-#special_formatting_text { color: #009b8e; }
+#special_formatting_text { color: #B1CBF7; }
 
 #message_edit_container .message_input, .inline_message_input_container .message_input { color: #e6e6e6; }
 
