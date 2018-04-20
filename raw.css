@@ -412,9 +412,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .ts_toggle.ts_toggle_orange .ts_toggle_button { background: #009b8e; color: #e6e6e6; }
 
-.menu { background: #363636; border: 1px solid #222; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); color: #363636; }
+.menu { background: #212121; border: 1px solid #222; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); color: #212121; }
 
-.menu .menu_content { background: #363636 !important; }
+.menu .menu_content { background: #212121 !important; }
 
 .menu .menu_filter_container { background: #222; }
 
@@ -438,7 +438,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .section_header > div.header_label_container { color: #B1CBF7 !important; }
 
-.menu ul li a { background: #363636; border-bottom: 0; color: #B1CBF7 !important; }
+.menu ul li a { background: #212121; border-bottom: 0; color: #B1CBF7 !important; }
 
 .menu ul li a.delete_link { color: #B1CBF7; }
 
