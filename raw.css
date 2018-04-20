@@ -434,11 +434,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu #menu_header .menu_close { color: #e6e6e6; }
 
-.menu .section_header .header_label { background-color: #212121; color: #009b8e !important; }
+.menu .section_header .header_label { background-color: #363636; color: #009b8e !important; }
 
 .menu .section_header > div.header_label_container { color: #009b8e !important; }
 
-.menu ul li a { background: #363636; border-bottom: 0; color: #e6e6e6; }
+.menu ul li a { background: #212121; border-bottom: 0; color: #009b8e !important; }
 
 .menu ul li a.delete_link { color: #009b8e; }
 
