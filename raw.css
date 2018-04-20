@@ -264,7 +264,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn-group.open .btn.dropdown-toggle { background-color: #545454; }
 
-.btn-group.open .btn-primary.dropdown-toggle { background-color: #424242; }
+.btn-group.open .btn-primary.dropdown-toggle { background-color: #212121; }
 
 .btn-group > .btn + .dropdown-toggle { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.125), inset 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(255, 255, 255, 0.05); }
 
@@ -336,7 +336,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
 
-#msg_input { background: #545454; border-color: #424242; color: #e6e6e6; }
+#msg_input { background: #363636 !important; border-color: #424242 !important; color: #424242 !important; }
 
 #msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -744,7 +744,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_container:hover { overflow: hidden !important; }
 
-#edit_topic_trigger { color: #949494; }
+#edit_topic_trigger { color: #009b8e !important; }
 
 .c-message_list__day_divider__label { color: #949494; }
 
@@ -766,23 +766,23 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .day_container .day_divider .day_divider_label { background: #222; }
 
-.search_form { border-color: #545454; }
+.search_form { border-color: #009b8e !important; }
 
 .search_form .search_input { background: transparent; }
 
-.search_form:hover { border-color: #828282; }
+.search_form:hover { border-color: #009b8e !important; }
 
-.search_focused .search_form { border-color: #828282; }
+.search_focused .search_form { border-color: #009b8e !important; }
 
-.search_clear_icon .ts_icon_times_circle { color: #949494; }
+.search_clear_icon .ts_icon_times_circle { color: #009b8e !important; }
 
-#search_spinner { color: #e6e6e6; }
+#search_spinner { color: #009b8e !important; }
 
 #search_container .search_input { background: transparent; }
 
-#search_container .icon_search { color: #949494; }
+#search_container .icon_search { color: #009b8e !important; }
 
-#search_container .icon_close { color: #949494; }
+#search_container .icon_close { color: #009b8e !important; }
 
 #team_filter .icon_search, #team_filter .ts_icon_spinner, #user_group_filter .icon_search, #user_group_filter .ts_icon_spinner, .searchable_member_list_search_bar .icon_search, .searchable_member_list_search_bar .ts_icon_spinner { color: #949494; }
 
