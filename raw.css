@@ -462,13 +462,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a.delete_link { color: #009b8e; }
 
-.menu input { background: #212121; border: 1px solid #545454; }
+.menu input { background: #363636; border: 1px solid #545454; }
 
-.menu textarea { background: #212121; border: 1px solid #545454; }
+.menu textarea { background: #363636; border: 1px solid #545454; }
 
-.menu #menu_footer .menu_footer { background: #000; border-top: 1px solid #212121; }
+.menu #menu_footer .menu_footer { background: #000; border-top: 1px solid #363636; }
 
-.menu #monkey_scroll_wrapper_for_menu_items_scroller { background: #212121; }
+.menu #monkey_scroll_wrapper_for_menu_items_scroller { background: #363636; }
 
 .menu #menu_list_container #menu_list .menu_list_item a { color: #e6e6e6; }
 
@@ -488,15 +488,15 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #autocomplete_menu .keyword_match .modifier { color: #949494; }
 
-#autocomplete_menu .boxed { background: #222; border: 1px solid #212121; box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15); }
+#autocomplete_menu .boxed { background: #222; border: 1px solid #363636; box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15); }
 
-#autocomplete_menu .pickmeup { border-bottom: 1px solid #212121; }
+#autocomplete_menu .pickmeup { border-bottom: 1px solid #363636; }
 
 #autocomplete_menu.search_menu .section_header::before, #autocomplete_menu.search_menu.unified .section_header::before { background-color: #545454; }
 
 #autocomplete_menu.search_menu header, #autocomplete_menu.search_menu.unified header { color: #e6e6e6; }
 
-#autocomplete_menu.search_menu header .header_label::before, #autocomplete_menu.search_menu.unified header .header_label::before { background-color: #212121; }
+#autocomplete_menu.search_menu header .header_label::before, #autocomplete_menu.search_menu.unified header .header_label::before { background-color: #363636; }
 
 #autocomplete_menu.search_menu .query_header, #autocomplete_menu.search_menu.unified .query_header { background-color: transparent; }
 
